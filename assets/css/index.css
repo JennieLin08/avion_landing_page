@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    /* font-family: "Host Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal; */
+
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body,
+html,
+main {
+    height: 100%;
+}
+
+/* nav styles */
+
+.fa-paper-plane {
+    color: #990011FF;
+}
+
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FCF6F5FF;
+
+}
+
+.img_home_1 {
+    border-radius: 20px;
+}
+
+
+.home-l-side {
+
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent white background */
+    backdrop-filter: blur(5px);
+    /* Apply blur effect */
+    color: white;
+    border-radius: 20px;
+    /* text-align: left; */
+}
+
+.home-r-side {
+    /* background-color: rgb(189, 52, 28) !important; */
+    border-radius: 20px;
+}
+
+.btn_apply_now {
+    background-color: #990011FF;
+    color: antiquewhite;
+    border-radius: 10%;
+}
+
+.btn_apply_now:hover {
+    background-color: rgb(0, 48, 153);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .home-l-side {
+        background-color: transparent;
+        border-radius: 20px;
+        color: white;
+        /* text-align: left; */
+    }
+
+}
+
+.parallax1-row {
+    padding: 10rem;
+    justify-content: center;
+
+}
+
+
+#enroll {
+    height: 100vh;
+    /* background-color: aqua; */
+    background-image: url("../images/home_img_2.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input,
+select,
+textarea {
+    height: 40px;
+    border-bottom: 1px solid white !important;
+    border: none;
+    background-color: transparent;
+    color: aqua;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-bottom: 1px solid lightseagreen !important;
+    outline: none !important;
+    color: aqua;
+}
+
+select:-webkit-autofill,
+select:-moz-autofill {
+    background-color: transparent;
+}
+
+
+.vid-container {
+    background: #eee;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+
+iframe {
+    box-sizing: border-box;
+    height: 56.25vw;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    width: 177.77777778vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+}
+
+/* + main section */
+
+.parallax1 {
+    align-content: center;
+
+    /* The image used */
+    background-image: url('/assets/images/home_img_1.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    padding-bottom: 20px;
+}
+
+/* - main */
+
+/* +section 2 for stories */
+#stories {
+    padding-top: 30px;
+    height: auto;
+    /* reference for linear color : https: //cssgradient.io/ */
+    background: rgb(31, 108, 184);
+    background: linear-gradient(230deg, rgba(31, 108, 184, 1) 0%, rgba(173, 201, 190, 0.9416141456582633) 56%);
+    font-size: 20px;
+}
+
+#image {
+    background-image: url('/assets/images/img_1.jpg');
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.border-secondary {
+    border-radius: 20px;
+}
+
+/* - stories */
+
+.parallax2 {
+    /* The image used */
+    background-image: url('/assets/images/par2.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#gallery {
+    align-items: center;
+    justify-content: center;
+}
+
+.gal_img {
+    height: 30%;
+
+}
+
+footer {
+    /* height: 20vh; */
+    /* background: rgb(31, 108, 184);
+    background: linear-gradient(143deg, rgba(31, 108, 184, 1) 0%, rgba(173, 201, 190, 0.9416141456582633) 56%); */
+    font-size: 20px
+}
